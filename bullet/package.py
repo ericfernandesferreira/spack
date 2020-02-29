@@ -33,12 +33,11 @@ class Bullet(CMakePackage):
 
     # Add a list of GitHub accounts to
     # notify when the package is updated.
-    maintainers = ['erwincoumans']
+    maintainers = ['https://github.com/erwincoumans']
 
     version('2.89', sha256='621b36e91c0371933f3c2156db22c083383164881d2a6b84636759dc4cbb0bb8')
 
     # Add dependencies if required.
-    # depends_on('foo')
 
     def cmake_args(self):
         args = []
